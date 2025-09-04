@@ -26,19 +26,21 @@
       }
       #first {
         background-color: red;
-        order: 3;
       }
       #second {
         background-color: green;
+        flex-basis: 200px;
       }
       #third {
         background-color: blue;
         flex-grow: 2;
+        flex-basis: 200px;
+        align-self: center;
       }
       #fourth {
         background-color: yellow;
-        order: -1;
-        flex-shrink: 3;
+
+        flex: 2 3 200px;
       }
     </style>
   </head>
