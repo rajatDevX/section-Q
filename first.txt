@@ -1,0 +1,11 @@
+var ---redeclare possible...
+
+var a=4;
+var a=6;
+(possible)
+
+let --redeclare not possible...
+
+let a=5;
+let a=10;
+(not possible)

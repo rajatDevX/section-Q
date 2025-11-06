@@ -1,0 +1,42 @@
+primitive data type-stores the actual value
+Number
+value store in stack memory
+String
+boolean
+bigint
+non primitive data type(reference type data type)-store reference only
+value store in heap memory
+arrays
+objects
+let arr1=[34,67,89];
+arr1.push(21);-add element from last
+arr1.pop();-remove element from last
+arr1.unshift(34);-add element from start
+arr1.shift();-remove element from start
+splice--->>
+let students=["divya","anjani","saket"];
+students
+(3) ['divya', 'anjani', 'saket']
+//remove elments
+students.splice(1,2);
+students
+['divya']
+//add elements
+students.splice(1,0,"Utkarsh","Shashank");
+students
+(3) ['divya', 'Utkarsh', 'Shashank']
+//replace elements
+students.splice(2,1,"Shivani","Prateek");
+students
+(4) ['divya', 'Utkarsh', 'Shivani', 'Prateek']
+//delete all elements
+students.splice(2);
+students
+(2) ['divya', 'Utkarsh']
+task 1----->>>
+let team=["kamal","aman","priya"]
+1-add neha and vivek in the end
+2-in start add sonia
+3-replace an element from second position and add karan
+4-remove last member
+5-print final team

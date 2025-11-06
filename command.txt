@@ -1,0 +1,14 @@
+pwd -->present working directory
+cd  -->change directory
+cd ..  -->change directory to parent directory
+ls -->listdown all files and folder
+code file_name-->opening a file 
+touch file_name-->making a new file
+code .-->opening vs code
+echo "This is my first command inside command line">first.txt
+cat file_name -->print the content of file in terminal
+
+special commands for deleting a file and folder completely
+rm file_name -->deleting a file
+rm -r -->deleting a folder
+rm -rf -->force delete a folder
